@@ -27,3 +27,27 @@ to {top: 10%; font-size: 80px; left:25%}
   font-size: larger;
   background-color: gold;
 }
+.area{
+  height:98vh;
+  width:100%;
+  display: flex;
+  align-items: end;
+}
+.player{
+  color:black;
+  background-color:darkgray;
+  height:550px;
+  width:250px;
+  margin:20px;
+  position:absolute;
+}
+.textbox{
+  color:black;
+  background-color:lightgrey;
+  width:90%;
+  height:200px;
+  margin:50px;
+  margin-bottom: 80px;
+  position:relative;
+  opacity: 60%;
+}
