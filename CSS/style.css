@@ -2,18 +2,25 @@ Body{
 background-image: url(https://c8.alamy.com/comp/E8GHN4/italy-balsegna-di-pina-pine-tree-forest-E8GHN4.jpg);
 font-family: 'MedievalSharp';
 }
-
+@keyframes Welcome {
+from {top: 0%; font-size: 0px; left:48%}
+to {top: 10%; font-size: 80px; left:25%}
+}
+@keyframes welcomebtn {
+  from {opacity: 0%;}
+  to {opacity: 100%;}
+}
 #welcome{
-  position: fixed;
-  left: 40%;
+  position: fixed; left: 25%; top: 10%; font-size: 80px;
+  animation-name: Welcome; animation-duration: 1s;
+  text-shadow: 0px -8px 10px #282828; color: sandybrown; -webkit-text-stroke: .1px #282828;
 }
 #startButton {
   background-color: goldenrod;
   border-radius: 20%; border-width: 10px; color: white; padding: 15px 32px;
   text-align: center; text-decoration: none; display: inline-block;
   font-size: 16px; margin: 4px 2px; cursor: pointer;
-  position: fixed; top: 70%; left: 43%;
-  transition: font-size .5s;
+  position: fixed; top: 70%; left: 43%; animation-name: welcomebtn; animation-duration: 5s;
 }
 #startButton:hover{
   font-size: larger;
