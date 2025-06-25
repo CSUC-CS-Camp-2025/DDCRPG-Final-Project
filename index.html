@@ -3,8 +3,6 @@
 <head>
     <title>Welcome Traveller</title>
     <link rel="stylesheet" href=CSS/style.css>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-    <script src="JS/script.js" defer></script>
     <link href="https://fonts.googleapis.com/css?family=MedievalSharp:regular" rel="stylesheet" />
 </head>
 <body>
@@ -13,6 +11,13 @@
     <h1 id="welcome">Welcome Adventurer</h1>
     <button onclick="playAudio(btnfx)" type="button" id="startButton">Start Journey</button>
     <button onclick="playAudio(mbgm)" type="button" id="bgm_btm">click for music</button>
-    
+
 </body>
+<script>
+var btnfx = document.getElementById("btnfx");
+let mbgm = document.getElementById("main_bgm")
+function playAudio(Audio) 
+{ 
+  Audio.play();
+}</script>
 </html>
