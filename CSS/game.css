@@ -1,8 +1,16 @@
+#Player {
+  width: 100px;
+  height: 100px;
+  background-color: black;
+  position: absolute;
+}
+
 progress {
-  border-radius: 7px; 
+  border-radius: 7px;
   width: 50%;
   height: 22px;
 }
+
 progress::-webkit-progress-bar {
   border-radius: 7px;
 }
@@ -14,47 +22,7 @@ progress::-webkit-progress-value {
 progress.low::-webkit-progress-value {
   background-color: red;
 }
+
 progress.mid::-webkit-progress-value {
   background-color: yellow;
-}
-.playerBattle{
-  color:black;
-  background-color:darkgray;
-  height:550px;
-  width:250px;
-  margin-left:20%;
-  margin-bottom:9%;
-  position:absolute;
-}
-.atkBtn{
-  color:black;
-  background-color:rgb(234, 81, 81);
-  height:150px;
-  width:250px;
-  margin-left: 13%;
-  margin-bottom:6%;
-  border:groove rgb(234, 81, 81) 12px;
-  position:relative;
-  cursor: pointer;
-  font-size: 20px;
-}
-.enemySprite{
-  color:black;
-  background-color:darkgray;
-  height:300px;
-  width:400px;
-  margin-left:60%;
-  margin-top:20%;
-  position:absolute;
-  align-self: start;
-}
-#Enemy{
-  color:black;
-  background-color:darkgray;
-  height:20px;
-  width:600px;
-  margin-left:54%;
-  margin-top:18%;
-  position:absolute;
-  align-self: start;
 }

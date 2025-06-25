@@ -1,40 +1,37 @@
 <!DOCTYPE html>
-<html>  
+<html>
+
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Welcome Traveller</title>
     <link rel="stylesheet" href="CSS/game.css">
-    <link rel="stylesheet" href="CSS/style.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <script src="JS/Player.js" defer></script>
     <link href="https://fonts.googleapis.com/css?family=MedievalSharp:regular" rel="stylesheet" />
 </head>
 <body>
-    <div class="area">
-        <div class="playerBattle">player</div>
-        <div class="enemySprite">enemySprite</div>
-        <progress value="100" max="100" id="Enemy"></progress>
-        <button class="atkBtn" onclick="attackenemy()">Attack</button>
-    </div>
+    <progress value="100" max="100" id="Enemy"></progress>
+    <button onclick="attackenemy()">Attack</button>
 <script>
 //changes Healthbar color
 const progress = document.getElementById('Enemy');
 
-function updateProgressBarColor() {
-  const Low = 25;
-  if (progress.value < Low) {
-    progress.classList.add('low');
-  } else {
-    progress.classList.remove('low');
-  }
-  const Mid = 50;
-  if (progress.value < Mid && progress.value> Low) {
-    progress.classList.add('mid');
-  } else {
-    progress.classList.remove('mid');
-  }
-}
-</script>
+    function updateProgressBarColor() {
+      const Low = 25;
+      if (progress.value < Low) {
+        progress.classList.add('low');
+      } else {
+        progress.classList.remove('low');
+      }
+      const Mid = 50;
+      if (progress.value < Mid && progress.value > Low) {
+        progress.classList.add('mid');
+      } else {
+        progress.classList.remove('mid');
+      }
+    }
+  </script>
 </body>
+
 </html>
