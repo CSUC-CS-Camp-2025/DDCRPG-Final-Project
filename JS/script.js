@@ -19,6 +19,7 @@ function conversation() {
   document.getElementById("text").textContent = dialogue[talking];
   if (talking == dialogue.length){
     talking = 0;
+    //last next should redirect to map
   };
 }
 
