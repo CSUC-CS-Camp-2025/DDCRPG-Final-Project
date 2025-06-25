@@ -1,8 +1,16 @@
+#Player {
+  width: 100px;
+  height: 100px;
+  background-color: black;
+  position: absolute;
+}
+
 progress {
-  border-radius: 7px; 
+  border-radius: 7px;
   width: 50%;
   height: 22px;
 }
+
 progress::-webkit-progress-bar {
   border-radius: 7px;
 }
@@ -14,6 +22,7 @@ progress::-webkit-progress-value {
 progress.low::-webkit-progress-value {
   background-color: red;
 }
+
 progress.mid::-webkit-progress-value {
   background-color: yellow;
 }

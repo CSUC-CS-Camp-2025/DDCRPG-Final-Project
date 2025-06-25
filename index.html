@@ -1,23 +1,34 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-    <title>Welcome Traveller</title>
-    <link rel="stylesheet" href=CSS/style.css>
-    <link href="https://fonts.googleapis.com/css?family=MedievalSharp:regular" rel="stylesheet" />
+  <title>Welcome Traveller</title>
+  <link rel="stylesheet" href=CSS/transition.css>
+  <link rel="stylesheet" href=CSS/style.css>
+  <link href="https://fonts.googleapis.com/css?family=MedievalSharp:regular" rel="stylesheet" />
+  <script defer src="https://unpkg.com/swup@4"></script>
+  <script defer src="JS/script.js" ></script>
+
 </head>
-<body>
-    <audio id="btnfx"><source src="audio/fx/ui-interface-sound-26-299883.ogg" type="audio/ogg"> <source src="audio/fx/ui-interface-sound-26-299883.mp3" type="audio/mpeg"></audio>
-    <audio id="main_bgm"><source src="audio/bgm/mbgm.ogg" type="audio/ogg"><source src="audio/bgm/mbgm.mp3" type="audio/mpeg"></audio>
-    <h1 id="welcome">Welcome Adventurer</h1>
-    <button onclick="playAudio(btnfx)" type="button" id="startButton">Start Journey</button>
-    <button onclick="playAudio(mbgm)" type="button" id="bgm_btm">click for music</button>
+<body id="swup" class="transition-fade">
+  <audio id="btnfx">
+    <source src="audio/fx/ui-interface-sound-26-299883.ogg" type="audio/ogg">
+    <source src="audio/fx/ui-interface-sound-26-299883.mp3" type="audio/mpeg">
+  </audio>
+  <audio id="main_bgm">
+    <source src="audio/bgm/mbgm.ogg" type="audio/ogg">
+    <source src="audio/bgm/mbgm.mp3" type="audio/mpeg">
+  </audio>
+  <h1 id="welcome">Journey For The Wool</h1>
+  <button onclick="playAudio(btnfx)" type="button" id="startButton"><a href="/intro.html">-Click Here-</a></button>
+  <button onclick="playAudio(mbgm)" type="button" id="bgm_btm">click for music</button>
 
 </body>
 <script>
-var btnfx = document.getElementById("btnfx");
-let mbgm = document.getElementById("main_bgm")
-function playAudio(Audio) 
-{ 
-  Audio.play();
-}</script>
+  var btnfx = document.getElementById("btnfx");
+  let mbgm = document.getElementById("main_bgm")
+  function playAudio(Audio) {
+    Audio.play();
+  }</script>
+
 </html>
