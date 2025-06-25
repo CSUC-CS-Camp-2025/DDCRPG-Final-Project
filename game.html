@@ -11,8 +11,12 @@
     <link href="https://fonts.googleapis.com/css?family=MedievalSharp:regular" rel="stylesheet" />
 </head>
 <body>
-    <progress value="100" max="100" id="Enemy"></progress>
-    <button onclick="attackenemy()">Attack</button>
+    <div class="area">
+        <div class="playerBattle">player</div>
+        <div class="enemySprite">enemySprite</div>
+        <progress value="100" max="100" id="Enemy"></progress>
+        <button class="atkBtn" onclick="attackenemy()">Attack</button>
+    </div>
 <script>
 //changes Healthbar color
 const progress = document.getElementById('Enemy');
@@ -32,11 +36,5 @@ function updateProgressBarColor() {
   }
 }
 </script>
-    <div class="area">
-        <div class="playerBattle">player</div>
-        <div class="atkBtn">Attack Button</div>
-        <div class="enemySprite">enemySprite</div>
-        <div class="healthbar">healthbar</div>
-    </div>
 </body>
 </html>
