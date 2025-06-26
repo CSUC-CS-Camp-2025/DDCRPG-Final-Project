@@ -12,7 +12,7 @@ function conversation() {
   document.getElementById("text").textContent = dialogue[talking];
   if (talking == dialogue.length){
     talking = 0;
-    location.href = "/map.html";
+    location.href = "https://csuc-cs-camp-2025.github.io/DDCRPG-Final-Project/map.html";
   };
 }
 nextButton = document.getElementById("nextButton");

@@ -30,7 +30,7 @@ font-family: 'MedievalSharp';
 .left{
     height: 90%;
     width: 30%;
-    background-color: brown;
+    background-image: url("https://csuc-cs-camp-2025.github.io/DDCRPG-Final-Project/gallery/maleMC.png");
 }
 .right{
     height: 90%;
