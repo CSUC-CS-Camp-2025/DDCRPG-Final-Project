@@ -48,12 +48,10 @@ progress.mid::-webkit-progress-value {
   font-size: 20px;
 }
 .enemySprite{
-  color:black;
-  background-color:darkgray;
   height:300px;
-  width:400px;
+  width:300px;
   margin-left:60%;
-  margin-top:20%;
+  margin-top:30%;
   position:absolute;
   align-self: start;
 }
@@ -62,8 +60,8 @@ progress.mid::-webkit-progress-value {
   background-color:darkgray;
   height:20px;
   width:600px;
-  margin-left:54%;
-  margin-top:18%;
+  margin-left:50%;
+  margin-top:30%;
   position:absolute;
   align-self: start;
 }
