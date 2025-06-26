@@ -18,10 +18,10 @@ function conversation() {
   document.getElementById("text").textContent = dialogue[talking];
   if (talking == dialogue.length){
     talking = 0;
-    //last next should redirect to map
+    location.href = "/map.html";
   };
 }
-
-document.getElementById("nextButton").addEventListener('click', () =>{
+nextButton = document.getElementById("nextButton");
+nextButton.addEventListener('click', () =>{
   conversation();
 });
