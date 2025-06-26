@@ -32,26 +32,3 @@ setInterval(() => {
         enemyhealth += heal;
     }
 }, 1000);
-
-//###########################Player Movement###############################//
-let player = document.getElementById('Player')
-let movePlayer = 50//player speed//
-//listens for key inputs//
-window.addEventListener('keydown', (e) => {
-    let leftpos = parseInt(window.getComputedStyle(player).getPropertyValue("left"))
-    let toppos = parseInt(window.getComputedStyle(player).getPropertyValue("top"))
-    switch (e.key) {
-        case 'a':
-            player.style.left = leftpos - movePlayer + 'px';
-            break;
-        case 'd':
-            player.style.left = leftpos + movePlayer + 'px';
-            break;
-        case 'w':
-            player.style.top = toppos - movePlayer + 'px';
-            break;
-        case 's':
-            player.style.top = toppos + movePlayer + 'px';
-            break;
-    }
-});
