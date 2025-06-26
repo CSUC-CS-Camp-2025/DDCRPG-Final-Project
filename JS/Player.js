@@ -1,7 +1,7 @@
 //#################This Section Covers Player Attack #############################//
 let enemyhealth = 100;
 setInterval(function () {
-    let healthvar = document.getElementsByClassName("Enemy");//gets current value of Enemy-its "health"//
+    let healthvar = document.getElementById("Enemy");//gets current value of Enemy-its "health"//
     healthvar.value = enemyhealth;
 
     if (enemyhealth < .01) {
