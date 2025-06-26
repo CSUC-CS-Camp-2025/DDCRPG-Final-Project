@@ -26,6 +26,7 @@ const progress = document.getElementById('Enemy');
 
     function updateProgressBarColor() {
       const Low = 25;
+      console.log(progress.value);
       if (progress.value < Low) {
         progress.classList.add('low');
       } else {
@@ -37,7 +38,9 @@ const progress = document.getElementById('Enemy');
       } else {
         progress.classList.remove('mid');
       }
+      if(progress.value){}
     }
+    
   </script>
 </body>
 
