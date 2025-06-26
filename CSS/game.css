@@ -21,19 +21,19 @@ progress.mid::-webkit-progress-value {
 }
 .playerBattle{
   color:black;
-  background-color:darkgray;
-  height:550px;
-  width:250px;
-  margin-left:20%;
-  margin-bottom:9%;
+  height:auto;
+  width:550px;
   position:absolute;
+  top: 0%;
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
 }
 .atkBtn{
   color:black;
   background-color:rgb(234, 81, 81);
   height:150px;
   width:250px;
-  margin-left: 13%;
+  margin-left: 10%;
   margin-bottom:6%;
   border:groove rgb(234, 81, 81) 12px;
   position:relative;
@@ -43,8 +43,8 @@ progress.mid::-webkit-progress-value {
 .enemySprite{
   height:300px;
   width:300px;
-  margin-left:60%;
-  margin-top:30%;
+  margin-left:59%;
+  margin-top:10%;
   position:absolute;
   align-self: start;
 }

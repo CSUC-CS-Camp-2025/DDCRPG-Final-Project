@@ -55,11 +55,10 @@ a:visited {
   align-items:end;
 }
 .player{
-  color:black;
-  background-color:darkgray;
-  height:550px;
-  width:250px;
-  margin-left:10%;
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  height:auto;
+  width:550px;
   position:absolute;
 }
 .grandma{

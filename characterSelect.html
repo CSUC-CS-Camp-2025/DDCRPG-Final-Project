@@ -1,20 +1,35 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Welcome Traveller</title>
-    <link rel="stylesheet" href="CSS/charSelect.css">
-    <link rel="stylesheet" href="CSS/style.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-    <script src="JS/Player.js" defer></script>
     <link href="https://fonts.googleapis.com/css?family=MedievalSharp:regular" rel="stylesheet" />
+    <title>Welcome Traveller</title>
+    <link rel="stylesheet" href="CSS/transition.css">
+    <link rel="stylesheet" href="CSS/charSelect.css">
+    <script defer src="https://unpkg.com/swup@4"></script>
+    <script defer src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script defer src="JS/Slide.js" defer></script>
 </head>
-<body>
-    <div class="title"><h1>Select Your Character!</h1></div>
+
+<body id="swup" class="transition-fade">
+    <div class="title">
+        <h1>Select Your Character!</h1>
+    </div>
     <div class="charHold">
-        <div class="left"></div>
-        <div class="right"></div>
+        <div>
+            <img id='left' class="MC" src="gallery/maleMC.png" onclick="Charsect(maleMC)" ondblclick="Continue()">
+        </div>
+        <div>
+            <img id='right' class="MC" src="gallery/femaleMC.png" onclick="Charsect(femaleMC)" ondblclick="Continue()">
+        </div>
     </div>
 </body>
+<script>
+    function Continue() {
+        window.open("intro.html", "_self");//
+    }
+</script>
+
 </html>

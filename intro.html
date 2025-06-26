@@ -8,11 +8,11 @@
     <link rel="stylesheet" href=CSS/style.css>
     <script defer src="https://unpkg.com/swup@4"></script>
     <script defer src="JS/script.js" ></script>
-    <script src="JS/Slide.js" defer></script>
+    <script src="JS/Slide.js" ></script>
 </head>
-<body id="swup" class="transition-fade">
+<body id="swup" class="transition-fade" onload="loadprotag()">
     <div class="area">
-        <div class="player">player</div>
+        <img class="player" src="/gallery/femaleMC.png">
         <img class="grandma" src="/gallery/grandma.png">
         <div class="textbox">
             <h2 id="text">Hi, Grandma!</h2>
@@ -20,4 +20,9 @@
         </div>
     </div>
 </body>
+<script>
+function loadprotag() {
+  document.getElementsByClassName("player").src = MCgender;
+}
+</script>
 </html>

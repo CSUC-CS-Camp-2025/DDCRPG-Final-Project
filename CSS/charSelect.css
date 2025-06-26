@@ -17,7 +17,7 @@ font-family: 'MedievalSharp';
     background-color: beige;
     justify-content: center;
     align-items: center;
-    margin-top: 5%;
+    margin-top: 2%;
 }
 .charHold{
     display: flex;
@@ -27,13 +27,21 @@ font-family: 'MedievalSharp';
     width: 80%;
     margin-top: 2%;
 }
-.left{
-    height: 90%;
-    width: 30%;
-    background-image: url("https://csuc-cs-camp-2025.github.io/DDCRPG-Final-Project/gallery/maleMC.png");
+#right{
+    filter: grayscale(100%);
+    height: 100%;
+    width: 550px;
 }
-.right{
-    height: 90%;
-    width: 30%;
-    background-color: brown;
+#right:hover{
+    width: 600px;
+    filter: grayscale(0%);
+}
+#left{
+    filter: grayscale(100%);
+    height: 100%;
+    width: 550px;
+}
+#left:hover{
+    width: 600px;
+    filter: grayscale(0%);
 }

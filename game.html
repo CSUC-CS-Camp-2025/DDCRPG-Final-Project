@@ -7,6 +7,7 @@
     <title>Welcome Traveller</title>
     <link rel="stylesheet" href="CSS/game.css">
     <link rel="stylesheet" href="CSS/style.css">
+    <script defer src="https://unpkg.com/swup@4"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <script src="JS/Player.js" defer></script>
     <script src="JS/Slide.js" defer></script>
@@ -14,7 +15,7 @@
 </head>
 <body>
     <div class="area">
-        <div class="playerBattle">player</div>
+        <img src="gallery/femaleMC.png" class="playerBattle">
         <img src="gallery/slimeResized.png" class="enemySprite">
         <progress value="100" max="100" id="Enemy"></progress>
         <button class="atkBtn" onclick="attackenemy()">Attack</button>
