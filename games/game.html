@@ -7,11 +7,11 @@
     <title>Welcome Traveller</title>
     <link rel="stylesheet" href="https://csuc-cs-camp-2025.github.io/DDCRPG-Final-Project/CSS/game.css">
     <link rel="stylesheet" href="https://csuc-cs-camp-2025.github.io/DDCRPG-Final-Project/CSS/style.css">
+    <link href="https://fonts.googleapis.com/css?family=MedievalSharp:regular" rel="stylesheet" />
     <script defer src="https://unpkg.com/swup@4"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-    <script src="https://csuc-cs-camp-2025.github.io/DDCRPG-Final-Project/JS/Player.js" defer></script>
+    <script src="https://csuc-cs-camp-2025.github.io/DDCRPG-Final-Project/JS/Player.js" ></script>
     <script src=https://csuc-cs-camp-2025.github.io/DDCRPG-Final-Project/JS/Slide.js" defer></script>
-    <link href="https://fonts.googleapis.com/css?family=MedievalSharp:regular" rel="stylesheet" />
 </head>
 <body>
     <div class="area">
@@ -26,7 +26,6 @@ const progress = document.getElementsByClassName('Enemy');
 
     function updateProgressBarColor() {
       const Low = 25;
-      console.log("this my consolelog print: " + progress);
       if (progress.value < Low) {
         progress.classList.add('low');
       } else {
@@ -38,7 +37,6 @@ const progress = document.getElementsByClassName('Enemy');
       } else {
         progress.classList.remove('mid');
       }
-      if(progress.value){}
     }
     
   </script>
