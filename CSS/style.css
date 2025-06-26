@@ -49,7 +49,7 @@ a:visited {
   text-decoration: none;
 }
 .area{
-  height:98vh;
+  height:100vh;
   min-width:100%;
   display: flex;
   align-items:end;
@@ -64,10 +64,9 @@ a:visited {
 }
 .grandma{
   color:black;
-  background-color:darkgray;
   height:550px;
-  width:250px;
-  margin-left:70%;
+  width:550px;
+  margin-left:56%;
   position:absolute;
 }
 .textbox{
@@ -80,6 +79,7 @@ a:visited {
   position:relative;
   opacity: 60%;
   display: flex;
+  align-items: center;
 }
 #text{
   margin-left:100px;
