@@ -55,19 +55,19 @@ function isColliding(a, b) {
 
 function onCollision() {
     player.x += movePlayer;
-    window.open("games/game.html", "_self");
+    window.open("game.html", "_self");
 }
 function onCollision1() {
     player.x += movePlayer;
-    window.open("games/game1.html", "_self");
+    window.open("game1.html", "_self");
 }
 function onCollision2() {
     player.x += movePlayer;
-    window.open("games/game2.html", "_self");
+    window.open("game2.html", "_self");
 }
 function onCollision3() {
     player.x += movePlayer;
-    window.open("games/game3.html", "_self");
+    window.open("game3.html", "_self");
 }
 //listens for key inputs//
 window.addEventListener('keydown', (e) => {
