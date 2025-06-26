@@ -1,0 +1,39 @@
+body{
+background-image: url(https://img.pikbest.com/illustration/20250426/whimsical-anime-style-forest-background-banner--e2-80-93-perfect-for-projects_11686315.jpg!sw800);
+background-repeat: no-repeat; background-size: cover;
+font-family: 'MedievalSharp';
+ height:100%;
+ width:100%;
+ margin:0;
+ padding:0;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+}
+.title{
+    display: flex;
+    height: 100px;
+    width:600px;
+    background-color: beige;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+}
+.charHold{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 70%;
+    width: 80%;
+    margin-top: 2%;
+}
+.left{
+    height: 90%;
+    width: 30%;
+    background-color: brown;
+}
+.right{
+    height: 90%;
+    width: 30%;
+    background-color: brown;
+}
