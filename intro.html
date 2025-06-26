@@ -1,28 +1,22 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <link rel="stylesheet" href=CSS/style.css>
-    <script src="JS/script.js" defer></script>
+    <title>Intro</title>
     <link href="https://fonts.googleapis.com/css?family=MedievalSharp:regular" rel="stylesheet" />
     <link rel="stylesheet" href=CSS/transition.css>
     <link rel="stylesheet" href=CSS/style.css>
     <script defer src="https://unpkg.com/swup@4"></script>
     <script defer src="JS/script.js" ></script>
-    <script src="JS/Slide.js" ></script>
+    <script defer src="JS/Slide.js" ></script>
 </head>
-<body id="swup" class="transition-fade" onload="loadprotag()">
+<body id="swup" class="transition-fade">
     <div class="area">
-        <img class="player" src="/gallery/femaleMC.png">
-        <img class="grandma" src="/gallery/grandma.png">
+        <img id="player" src="/gallery/femaleMC.png">
+        <img id="grandma" src="/gallery/grandma.png">
         <div class="textbox">
             <h2 id="text">Hi, Grandma!</h2>
             <button id="nextButton">Next</button>
         </div>
     </div>
 </body>
-<script>
-function loadprotag() {
-  document.getElementsByClassName("player").src = MCgender;
-}
-</script>
 </html>

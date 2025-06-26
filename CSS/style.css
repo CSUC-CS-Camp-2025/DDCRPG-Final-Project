@@ -54,14 +54,14 @@ a:visited {
   display: flex;
   align-items:end;
 }
-.player{
+#player{
   -webkit-transform: scaleX(-1);
   transform: scaleX(-1);
   height:auto;
   width:550px;
   position:absolute;
 }
-.grandma{
+#grandma{
   color:black;
   height:550px;
   width:550px;
