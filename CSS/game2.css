@@ -43,6 +43,8 @@ progress.mid::-webkit-progress-value {
 .enemySprite{
   margin-left:59%;
   margin-top:10%;
+  width: 400px;
+  height: auto;
   position:absolute;
   align-self: start;
 }
