@@ -49,8 +49,8 @@ progress.mid::-webkit-progress-value {
 #Enemy{
   color:black;
   background-color:darkgray;
-  height:20px;
-  width:600px;
+  height:auto;
+  width:200px;
   margin-left:50%;
   position:absolute;
   align-self: start;
